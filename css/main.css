@@ -1,0 +1,737 @@
+@charset "UTF-8";
+/*Map + Liên Hệ*/
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.container_footer {
+  width: 100%;
+  background-color: #0b0d17;
+}
+
+.content__header {
+  width: 95%;
+  margin-left: 0.5%;
+}
+
+.heading {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+
+.map {
+  width: 95%;
+  height: 950px;
+  border: none;
+}
+
+.heading2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #969BAB;
+}
+
+.text {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  position: static;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 26px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+  padding-bottom: 1%;
+}
+
+.text_mobile {
+  display: none;
+}
+
+/*Khung tuyển dụng*/
+.content__td {
+  font-family: "Inter", sans-serif;
+  width: 85%;
+  padding: 5%;
+  margin-left: 3.5%;
+  display: flex;
+}
+
+.content__td-items {
+  width: 43%;
+  align-items: flex-start;
+  padding: 20px;
+  box-shadow: 0px 20px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+
+.content__td-items2 {
+  width: 43%;
+  align-items: flex-start;
+  margin-left: 5%;
+  padding: 20px;
+  box-shadow: 0px 20px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+
+.content__td p {
+  position: static;
+  left: 4.44%;
+  right: 17.78%;
+  top: 18.75%;
+  bottom: 50%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #18191F;
+  margin: 16px 0px;
+}
+
+.content__td i {
+  margin-left: 3%;
+}
+
+.content__td a {
+  color: #276AE3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.content__td a:hover {
+  color: #c42d2d;
+  text-decoration: underline;
+}
+
+/*Banner*/
+.content__agency {
+  color: white;
+  height: 330px;
+  margin-left: 8.5%;
+  border-radius: 15px;
+}
+
+.content__agency .imgdesktop {
+  display: block;
+  position: absolute;
+  width: 82.5%;
+  height: 40%;
+}
+
+.content__agency .mobile {
+  display: none;
+  position: absolute;
+  font-family: "Inter", sans-serif;
+}
+
+.content__agency .desktop {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  margin-left: 5%;
+  font-size: 40px;
+  padding-top: 2%;
+  position: absolute;
+  font-weight: bold;
+}
+
+.content__agency .imgmobile {
+  position: absolute;
+  display: none;
+}
+
+.content__agency .btn1 {
+  margin-top: 12%;
+  margin-left: 5%;
+  background-color: #276AE3;
+  border: 1px solid #FFFFFF;
+  color: white;
+  border-radius: 6px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 15px 43px;
+  border-color: aliceblue;
+  position: absolute;
+  transition: 0.3s all ease-out;
+}
+
+.content__agency .btn1:hover {
+  background-color: #f50057;
+}
+
+/*Thông tin nội bộ*/
+.content_tt {
+  width: 84.5%;
+  margin: 8% 0;
+  padding-left: 8.5%;
+  font-size: 22px;
+}
+
+.content_tt a {
+  text-decoration: none;
+  color: black;
+  font-family: "Encode Sans", sans-serif;
+  padding-right: 0%;
+}
+
+.content_tt a:hover {
+  color: #c42d2d;
+  text-decoration: underline;
+}
+
+.content_tt-items {
+  display: flex;
+}
+
+.content_tt-items1 {
+  width: 50%;
+  display: flex;
+}
+
+.content_tt-items1 img {
+  width: 90%;
+}
+
+.content_tt-items2 {
+  width: 50%;
+  display: flex;
+}
+
+.content_tt-items2 img {
+  width: 90%;
+}
+
+.content_tt .heading {
+  font-family: "Inter", sans-serif;
+}
+
+/*Footer*/
+footer {
+  font-family: "Encode Sans", sans-serif;
+  width: 85%;
+  padding-left: 8.5%;
+  color: #f4f5f7;
+}
+
+footer .footer-top {
+  padding: 80px 0 20px;
+}
+
+footer .footer-top .img-logothongbao {
+  width: 90%;
+  height: 10%;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+footer .footer-top .img-dmca {
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+footer .footer-top ul li .flex {
+  align-items: center;
+}
+
+footer .footer-top ul li h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+footer .footer-top ul li .icon {
+  width: 20px;
+}
+
+footer .footer-top ul li .form-group {
+  padding: 0;
+  background-color: rgba(244, 245, 247, 0.2);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+footer .footer-top ul li .form-group input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-weight: 600;
+}
+
+footer .footer-top ul li .form-group button {
+  background-color: transparent;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+footer .footer-top .btn__link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+footer .footer-top .btn__link img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .footer-bottom {
+  padding: 20px 0;
+}
+
+footer .footer-bottom .flex {
+  justify-content: space-between;
+}
+
+footer .footer-bottom .flex a {
+  text-decoration: none;
+  color: #d9dbe1;
+}
+
+footer .footer-bottom .flex ul li {
+  border-right: 1px solid #f4f5f7;
+}
+
+footer .footer-bottom .flex ul li a {
+  display: block;
+  padding: 0 10px;
+  margin-right: 0;
+}
+
+footer .footer-bottom .flex ul li:last-child {
+  border-right: none;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 567px) {
+  /*Map + Liên Hệ*/
+  .content__header {
+    width: 100%;
+    margin-left: -2%;
+  }
+  .map {
+    width: 106%;
+    height: 300px;
+  }
+  .btn {
+    width: 190px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .text_desktop {
+    display: none;
+  }
+  .text_mobile {
+    display: block;
+  }
+  /*Tuyển dụng*/
+  .content__td {
+    width: 87%;
+    display: block;
+    margin-left: 1%;
+  }
+  .content__td-items {
+    width: 90%;
+    margin-top: 5%;
+  }
+  .content__td-items2 {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  .content__td p {
+    font-size: 19px;
+  }
+  .content__td a {
+    font-size: 14px;
+  }
+  /*Banner*/
+  .content__agency {
+    margin-left: 6%;
+    margin-top: 5%;
+    width: 85%;
+    height: 500px;
+  }
+  .content__agency .imgdesktop {
+    display: none;
+  }
+  .content__agency .imgmobile {
+    display: block;
+    width: 88.5%;
+    height: 480px;
+  }
+  .content__agency .btn1 {
+    width: 50%;
+    padding: 3%;
+    margin: 31% 7%;
+    font-size: 13px;
+  }
+  .content__agency .mobile {
+    display: block;
+    padding: 5% 7%;
+    font-size: 23px;
+  }
+  .content__agency .desktop {
+    display: none;
+  }
+  .content__agency a {
+    width: 100%;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 14px;
+  }
+  /*thông tin nội bộ*/
+  .content_tt {
+    width: 83.5%;
+    padding-left: 6%;
+  }
+  .content_tt a {
+    font-size: 12.5px;
+  }
+  .content_tt .heading {
+    font-size: 20px;
+  }
+  .content_tt-items {
+    display: block;
+  }
+  .content_tt-items1 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items1 img {
+    width: 93%;
+  }
+  .content_tt-items2 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items2 img {
+    width: 93%;
+  }
+  /*Footer*/
+  footer {
+    width: 80%;
+    margin-left: -2.5%;
+  }
+  footer .mx3 {
+    margin-left: -1%;
+  }
+  footer .time {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+  footer .time2 {
+    margin-left: 8px;
+  }
+  footer .h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 639px) {
+  /*Map + Liên Hệ*/
+  .content__header {
+    width: 100%;
+    margin-left: -2%;
+  }
+  .map {
+    width: 100%;
+    height: 300px;
+  }
+  .btn {
+    width: 190px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .text_desktop {
+    display: none;
+  }
+  .text_mobile {
+    display: block;
+  }
+  /*Tuyển dụng*/
+  .content__td {
+    width: 89%;
+    display: block;
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  .content__td-items {
+    width: 90%;
+    margin-top: 5%;
+  }
+  .content__td-items2 {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  .content__td p {
+    font-size: 25px;
+  }
+  .content__td a {
+    font-size: 15px;
+  }
+  /*Banner*/
+  .content__agency {
+    margin-left: 5.5%;
+    margin-top: 10%;
+    width: 85%;
+    height: 500px;
+  }
+  .content__agency .imgdesktop {
+    display: none;
+  }
+  .content__agency .imgmobile {
+    display: block;
+    width: 85%;
+    height: 150%;
+  }
+  .content__agency .btn1 {
+    width: 40%;
+    margin-top: 22%;
+    margin-left: 10%;
+    font-size: 14px;
+  }
+  .content__agency .mobile {
+    display: block;
+    margin-left: 10%;
+    margin-top: 8%;
+    font-size: 30px;
+  }
+  .content__agency .desktop {
+    display: none;
+  }
+  .content__agency a {
+    width: 100%;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 14px;
+  }
+  /*thông tin nội bộ*/
+  .content_tt {
+    width: 77%;
+    padding-left: 4%;
+  }
+  .content_tt a {
+    font-size: 13px;
+  }
+  .content_tt .heading {
+    font-size: 20px;
+  }
+  .content_tt-items {
+    display: block;
+  }
+  .content_tt-items1 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items1 img {
+    width: 95%;
+  }
+  .content_tt-items2 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items2 img {
+    width: 95%;
+  }
+  .content_tt {
+    width: 80%;
+    margin-left: 2%;
+  }
+  .content_tt h1 {
+    font-size: 20px;
+  }
+  /*Footer*/
+  footer {
+    width: 87%;
+    margin-left: -2%;
+  }
+  footer .mx3 {
+    margin-left: -1%;
+  }
+  footer .time {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+  footer .time2 {
+    margin-left: 8px;
+  }
+  footer .h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 1023px) {
+  .heading {
+    font-size: 35px;
+  }
+  .content__header {
+    width: 100%;
+    margin-left: -2%;
+  }
+  .content__header .map {
+    width: 95%;
+    height: 850px;
+  }
+  .content__td {
+    width: 90%;
+    margin-left: 1%;
+  }
+  .content__td p {
+    font-size: 19px;
+  }
+  .content__td a {
+    font-size: 20px;
+  }
+  .content__agency {
+    width: 85%;
+    height: 200px;
+    margin-left: 6%;
+  }
+  .content__agency .imgdesktop {
+    width: 88%;
+    height: 180px;
+  }
+  .content__agency .desktop {
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 4%;
+  }
+  .content__agency .btn1 {
+    padding: 10px 10px;
+    margin-left: 4%;
+    margin-top: 14%;
+  }
+  .content_tt {
+    width: 84%;
+    font-size: 19px;
+    margin-left: -3%;
+  }
+  .content_tt .heading {
+    font-size: 30px;
+  }
+  .content_tt-items {
+    display: block;
+  }
+  .content_tt-items1 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items1 img {
+    width: 95%;
+  }
+  .content_tt-items2 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items2 img {
+    width: 95%;
+  }
+  footer {
+    width: 94%;
+    font-size: 8px;
+    margin-left: -3%;
+  }
+  footer .footer-top ul li h6 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .content__header {
+    width: 95%;
+    margin-left: 0.5%;
+  }
+  .content__header .map {
+    width: 95%;
+    height: 900px;
+  }
+  .content__td {
+    width: 84%;
+    margin-left: 3%;
+    display: flex;
+  }
+  .content__td p {
+    font-size: 25px;
+  }
+  .content__td a {
+    font-size: 20px;
+  }
+  .content__agency {
+    margin-top: 4%;
+    width: 80%;
+    height: 200px;
+    margin-left: 8%;
+  }
+  .content__agency .imgdesktop {
+    width: 82.5%;
+    height: 220px;
+  }
+  .content__agency .h3 {
+    font-size: 26px;
+    margin-top: 1%;
+    margin-left: 6%;
+  }
+  .content__agency .btn1 {
+    margin-left: 6%;
+    margin-top: 10%;
+  }
+  .content_tt {
+    width: 80%;
+    font-size: 21px;
+    margin-left: -0.5%;
+  }
+  .content_tt .heading {
+    font-size: 30px;
+  }
+  .content_tt-items {
+    display: block;
+    margin-bottom: 2%;
+  }
+  .content_tt-items1 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items1 img {
+    width: 90%;
+  }
+  .content_tt-items2 {
+    width: 110%;
+    display: flex;
+  }
+  .content_tt-items2 img {
+    width: 90%;
+  }
+  footer {
+    width: 87%;
+    margin-left: 0%;
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

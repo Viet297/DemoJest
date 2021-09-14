@@ -1,0 +1,426 @@
+@media only screen and (min-device-width: 280px) and (max-device-width: 567px){
+    /*Map + Liên Hệ*/
+    .content__header{
+        width: 100%;
+        margin-left:-2%;
+    }
+    .map{
+        width: 106%;
+        height: 300px;
+    }
+    .btn{
+        width: 190px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .text{
+        &_desktop{
+            display: none;
+        }
+        &_mobile{
+            display: block;
+        }
+    }
+    /*Tuyển dụng*/
+    .content__td{
+        width:87%;
+        display: block;
+        margin-left:1%;
+        &-items{
+            width: 90%;
+            margin-top: 5%;
+        }
+        &-items2{
+            width: 90%;
+            margin-top: 10%;
+            margin-left: 0%;
+        }
+        p{
+            font-size: 19px;
+        }
+        a{
+            font-size: 14px;
+        }
+    }
+    /*Banner*/
+    .content__agency{
+        margin-left: 6%;
+        margin-top: 5%;
+        width: 85%;
+        height: 500px;
+        .imgdesktop{
+            display: none;
+        }
+        .imgmobile{
+            display: block;
+            width: 88.5%;
+            height: 480px;
+        }
+        .btn1{
+            width: 50%;
+            padding: 3%;
+            //margin-top: 33%;
+            //margin-left: 7%;
+            margin: 31% 7%;
+            font-size: 13px;
+        }
+        .mobile{
+            display: block;
+            //margin-left: 7%;
+            //margin-top: 15%;
+            padding: 5% 7%;
+            font-size: 23px;
+        }
+        .desktop{
+            display: none;
+        }
+        a{  
+            width: 100%;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+            font-size: 14px;
+        }
+    }
+    /*thông tin nội bộ*/
+    .content_tt{
+        width: 83.5%;
+        padding-left: 6%;
+        a{
+            font-size: 12.5px;
+        }
+        .heading{
+            font-size: 20px;
+        }
+        &-items{
+            display: block;
+        }
+        &-items1{
+            width: 110%;
+            display: flex;
+            img{
+                width: 93%;
+            }
+        }
+        &-items2{
+            width: 110%;
+            display: flex;
+            img{
+                width: 93%;
+            }
+        }
+    }
+    /*Footer*/
+    footer{
+        width: 80%;
+        margin-left: -2.5%;
+        .mx3{
+            margin-left: -1%;
+        }
+        .time{
+            font-size: 10px;
+            display: grid;
+            grid-template-columns: 48% 48%;
+        }
+        .time2{
+            margin-left: 8px;
+        }
+        .h1{
+            font-size: 20px;
+        }
+    }
+}
+@media only screen and (min-device-width: 568px) and (max-device-width: 639px){
+    /*Map + Liên Hệ*/
+    .content__header{
+        width: 100%;
+        margin-left:-2%;
+    }
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+    .btn{
+        width: 190px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .text{
+        &_desktop{
+            display: none;
+        }
+        &_mobile{
+            display: block;
+        }
+    }
+    /*Tuyển dụng*/
+    .content__td{
+        width: 89%;
+        display: block;
+        font-size: 20px;
+        margin-left:0%;
+        &-items{
+            width: 90%;
+            margin-top: 5%;
+        }
+        &-items2{
+            width: 90%;
+            margin-top: 10%;
+            margin-left: 0%;
+        }
+        p{
+            font-size: 25px;
+        }
+        a{
+            font-size: 15px;
+        }
+    }
+    /*Banner*/
+    .content__agency{
+        margin-left: 5.5%;
+        margin-top: 10%;
+        width: 85%;
+        height: 500px;
+        .imgdesktop{
+            display: none;
+        }
+        .imgmobile{
+            display: block;
+            width: 85%;
+            height: 150%;
+        }
+        .btn1{
+            width: 40%;
+            margin-top: 22%;
+            margin-left: 10%;
+            font-size: 14px;
+        }
+        .mobile{
+            display: block;
+            margin-left: 10%;
+            margin-top: 8%;
+            font-size: 30px;
+        }
+        .desktop{
+            display: none;
+        }
+        a{  
+            width: 100%;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+            font-size: 14px;
+        }
+    }
+    /*thông tin nội bộ*/
+    .content_tt{
+        width: 77%;
+        padding-left: 4%;
+        a{
+            font-size: 13px;
+        }
+        .heading{
+            font-size: 20px;
+        }
+        &-items{
+            display: block;
+        }
+        &-items1{
+            width: 110%;
+            display: flex;
+            img{
+                width: 95%;
+            }
+        }
+        &-items2{
+            width: 110%;
+            display: flex;
+            img{
+                width: 95%;
+            }
+        }
+    }
+    .content_tt{
+        h1{
+            font-size: 20px;
+        }
+        width: 80%;
+        margin-left: 2%;
+    }
+    /*Footer*/
+    footer{
+        width: 87%;
+        margin-left: -2%;
+        .mx3{
+            margin-left: -1%;
+        }
+        .time{
+            font-size: 10px;
+            display: grid;
+            grid-template-columns: 48% 48%;
+        }
+        .time2{
+            margin-left: 8px;
+        }
+        .h1{
+            font-size: 20px;
+        }
+    }
+}
+@media only screen and (min-device-width: 640px) and (max-device-width: 1023px){
+    .heading{
+        font-size: 35px;
+    }
+    .content__header{
+        width: 100%;
+        margin-left: -2%;
+        .map{
+            width: 95%;
+            height: 850px;
+        }
+    }
+    .content__td{
+        width: 90%;
+        margin-left: 1%;
+        p{
+            font-size: 19px;
+        }
+        a{
+            font-size: 20px;
+        }
+    }
+    .content__agency{
+        width: 85%;
+        height: 200px;
+        margin-left: 6%;
+        .imgdesktop{
+            width: 88%;
+            height: 180px;
+        }
+        .desktop{
+            font-size: 25px;
+            margin-top: 3%;
+            margin-left: 4%;
+        }
+        .btn1{
+            padding: 10px 10px;
+            margin-left: 4%;
+            margin-top: 14%;
+        }
+    }
+    .content_tt{
+        width: 84%;
+        font-size: 19px;
+        margin-left: -3%;
+        .heading{
+            font-size: 30px;
+        }
+        &-items{
+            display: block;
+        }
+        &-items1{
+            width: 110%;
+            display: flex;
+            img{
+                width: 95%;
+            }
+        }
+        &-items2{
+            width: 110%;
+            display: flex;
+            img{
+                width: 95%;
+            }
+        }
+    }
+    footer{
+        width: 94%;
+        font-size: 8px;
+        margin-left: -3%;
+        .footer-top{
+            ul{
+                li{
+                    h6{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+    .content__header{
+        width: 95%;
+        margin-left: 0.5%;
+        .map{
+            width: 95%;
+            height: 900px;
+        }
+    }
+    .content__td{
+        width: 84%;
+        margin-left: 3%;
+        display: flex;
+        p{
+            font-size: 25px;
+        }
+        a{
+            font-size: 20px;
+        }
+    }
+    .content__agency{
+        margin-top: 4%;
+        width: 80%;
+        height: 200px;
+        margin-left: 8%;
+        .imgdesktop{
+            width: 82.5%;
+            height: 220px;
+        }
+        .h3{
+            font-size: 26px;
+            margin-top: 1%;
+            margin-left: 6%;
+        }
+        .btn1{
+            margin-left: 6%;
+            margin-top: 10%;
+        }
+    }
+    .content_tt{
+        width: 80%;
+        font-size: 21px;
+        margin-left: -0.5%;
+        .heading{
+            font-size: 30px;
+        }
+        &-items{
+            display: block;
+            margin-bottom: 2%;
+        }
+        &-items1{
+            width: 110%;
+            display: flex;
+            img{
+                width: 90%;
+            }
+        }
+        &-items2{
+            width: 110%;
+            display: flex;
+            img{
+                width: 90%;
+            }
+        }
+    }
+    footer{
+        width: 87%;
+        margin-left: 0%;
+        font-size: 10px;
+    }
+}
+

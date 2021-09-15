@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -16,11 +17,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^7.0.2",
     "jest": "^27.2.0",
     "pre-commit": "^1.2.2",
     "pre-push": "^0.1.1"
   },
-  "dependencies": {
-    "husky": "^7.0.2"
-  }
+  "dependencies": {}
 }

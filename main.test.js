@@ -1,6 +1,6 @@
 const fs = require("fs");
 window.document.body.innerHTML = fs.readFileSync("./index.html");
-test('count H1',()=>{
-    var countH1 = document.querySelectorAll('h1').length
-    expect(countH1).toBe(3);
+test('count H2',()=>{
+    var countH2 = document.querySelectorAll('h2').length
+    expect(countH2).toBe(20);
 })
